@@ -14,14 +14,14 @@
 ```					   
 Papt3 — это свободно распространяемая обёртка для пакетного менеджера pacman (используемого в дистрибутивах Arch Linux и производных) с синтаксисом, похожим на пакетный менеджер apt (используемый в дистрибутивах Debian и производных), **с добавлением** AUR Helper (Arch User Repository Helper).
 
+> Если вам нужен обычный Papt без AUR Helper, используйте проект [Papt](https://github.com/MarkGMX8X/papt).
+> **Примичание к проекту [Papt](https://github.com/MarkGMX8X/papt):** Данный проект работает по своей логике. (В просто-народии **Не** как APT) Что бы узнать как он работает установите его и введите команду: ```bash papt --help``` или на странице [Проекта](https://github.com/MarkGMX8X/papt)
+
 > ⚠️ **Важно:** Этот пакет устанавливает команду **`papt`**.  
 > Если у вас уже установлен `papt` или `papt2` — удалите их перед установкой `papt3`:
 > ```bash
-> yay -R papt    # или papt2
+> sudo pacman -Rns papt    # или papt2
 > ```
-
-> Если вам нужен обычный Papt без AUR Helper, используйте проект [Papt](https://github.com/MarkGMX8X/papt).
-> **Примичание к проекту [Papt](https://github.com/MarkGMX8X/papt):** Данный проект работает по своей логике. (В просто-народии **Не** как APT) Что бы узнать как он работает установите его и введите команду: ```bash papt --help``` или на странице [Проекта](https://github.com/MarkGMX8X/papt)
 
 >  Страница Papt3 на [AUR](https://aur.archlinux.org/packages/papt3) 
 
